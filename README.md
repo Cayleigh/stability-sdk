@@ -14,9 +14,10 @@ Install the PyPI package via:
 
 `client.py` is both a command line client and an API class that wraps the gRPC based API. To try the client:
 
-- Use Python venv: `python3 -m venv pyenv`
-- Set up in venv dependencies: `pyenv/bin/pip3 install -e .`
-- `pyenv/bin/activate` to use the venv.
+- Create a new virtual environment called `pyenv`: `python3 -m venv pyenv`
+- Activate the new virtual environment: `activate pyenv/bin/activate`
+- Go to the `stability-sdk` folder
+- Install your dependencies: `pip3 install -e .`
 - Set the `STABILITY_HOST` environment variable. This is by default set to the production endpoint `grpc.stability.ai:443`.
 - Set the `STABILITY_KEY` environment variable.
 
